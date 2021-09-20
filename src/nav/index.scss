@@ -1,0 +1,36 @@
+@import '../sass/mixins';
+@import '../sass/variable';
+
+
+
+.nav {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw;
+
+    .logo {
+        width: 5vw;
+        min-width: 50px;
+    }
+
+    .nav__menu {
+        width: 50%;
+        display: flex;
+        justify-content: space-between;
+        list-style: none;
+        padding: 0;
+    }
+    
+
+    .nav__link {
+        @include heading6;
+        list-style: none;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+}

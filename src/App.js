@@ -1,25 +1,46 @@
-import logo from './logo.svg';
-import './App.css';
+import './App.scss';
+import Nav from './nav'
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+
+	// Nav Links
+	let links = [
+		{
+			title: 'Home',
+			url: '#'
+		},
+		{
+			title: 'Sample 2',
+			url: '#'
+		},
+		{
+			title: 'Sample 3',
+			url: '#'
+		},
+		{
+			title: 'Sample 4',
+			url: '#'
+		},
+		{
+			title: 'Sample 5',
+			url: '#'
+		},
+		{
+			title: 'Sample 6',
+			url: '#'
+		},
+	]
+
+
+	return (
+		<div id="app-container">
+		<header className="header">
+			<Nav links={links}/>
+		</header>
+
+		</div>
+	);
 }
+
 
 export default App;
