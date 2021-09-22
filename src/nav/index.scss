@@ -11,8 +11,8 @@
     width: 100vw;
 
     .logo {
-        width: 5vw;
-        min-width: 50px;
+        width: min(50vw, 70px);
+        height: auto;
     }
 
     .nav__menu {
