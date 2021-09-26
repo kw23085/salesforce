@@ -4,8 +4,6 @@ import logo from '../img/logo-salesforce.svg'
 
 export default function Nav({ links }) {
 
-    console.log('test')
-
     return (
         <nav className="nav">
             <img src={logo} className="logo" alt="salesforce-logo"/>
