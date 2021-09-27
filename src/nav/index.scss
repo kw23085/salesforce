@@ -11,7 +11,7 @@
 
     .logo {
         // width: min(50vw, 70px);
-        width: 10vmin;
+        width: 7vmin;
         height: auto;
     }
 
@@ -28,13 +28,14 @@
     }
 
     .nav__link {
-        font-size: 2vmin;
+        font-size: 1.3vmin;
         list-style: none;
         font-family: $montserrat;
     }
 
     a {
         text-decoration: none;
+				color: $primary-color;
     }
 
 }
