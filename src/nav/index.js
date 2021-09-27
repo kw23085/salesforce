@@ -10,7 +10,7 @@ export default function Nav({ links }) {
             <ul className="nav__menu">
                 {
                     links.map(item => {
-                        return <li className="nav__item"><a className="nav__link" href={item.url}>{item.title}</a></li>
+                        return <li><a className="nav__link" href={item.url}>{item.title}</a></li>
                     })
                 }
             </ul>

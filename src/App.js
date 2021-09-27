@@ -34,9 +34,27 @@ function App() {
 
 	return (
 		<div id="app-container">
-		<header className="header">
-			<Nav links={links}/>
-		</header>
+
+			{/* Header */}
+			<header className="header">
+				<Nav links={links}/>
+			</header>
+
+			{/* Main */}
+			<main>
+				{/* Hero */}
+				<section className="hero">
+					<div className="container">
+						<h2>CX CHALLENGE</h2>
+						<p>Lorem ipsum dolor sit amet,
+						<br /> consectetur adipiscing elit,
+						</p>
+						<div role="button" tabIndex="8">Watch Demo</div>
+					</div>
+				</section>
+
+			</main>
+
 
 		</div>
 	);
