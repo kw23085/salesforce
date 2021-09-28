@@ -218,8 +218,6 @@ function App() {
 						<p>Powered by Q Branch</p>
 				</div>
 			</footer>
-
-
 		</div>
 	);
 }

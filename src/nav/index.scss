@@ -10,32 +10,42 @@
     width: 100%;
 
     .logo {
-        // width: min(50vw, 70px);
         width: 7vmin;
         height: auto;
     }
 
-    .nav__menu {
+    .menu {
         width: 50vw;
         display: flex;
         justify-content: space-between;
         list-style: none;
         padding: 0;
-
-        @media (max-width: 768px) {
-            width: 70vw;
-        }
     }
 
-    .nav__link {
-        font-size: 1.3vmin;
+    .link {
+        font-size: $nav-item-font-size;
         list-style: none;
-        font-family: $montserrat;
+        font-family: $opensans;
     }
 
     a {
         text-decoration: none;
 				color: $primary-color;
     }
+
+		@media (max-width: 768px) {
+			.menu {
+				width: 70vw;
+			}
+			.link {
+				font-size: 12px;
+			}
+		}
+
+		@media (max-width: 415px) {
+			.link {
+				font-size: 8px;
+			}
+		}
 
 }
